@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+  <head>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_hader" th:content="${_csrf.headerName}"/>
+    <title>uploadimg.html</title>
+
+  </head>
+
+  <body>
+  <form th:action="@{/upload}"  method="post"  >
+    <p>选择文件1<input type="file" name="fileName"/></p>
+    <!-- <p>选择文件1<input type="file" name="fileName"/></p> -->
+    <input type="submit" value="上传"/>
+    </form>
+  </body>
+</html>

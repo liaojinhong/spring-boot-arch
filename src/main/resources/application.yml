@@ -1,0 +1,8 @@
+jedis :
+  pool :
+    host : localhost
+    port : 6379
+    config :
+      maxTotal: -1
+      maxIdle: -1
+      maxWaitMillis : -1
