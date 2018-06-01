@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.me.springboot</groupId>
-  <artifactId>spring-boot</artifactId>
+  <artifactId>git-spring-boot</artifactId>
   <packaging>war</packaging>
   <version>2.0-demo</version>
-  <name>spring-boot</name>
+  <name>git-spring-boot</name>
   
   <properties>  
     <java.version>1.7</java.version>  
